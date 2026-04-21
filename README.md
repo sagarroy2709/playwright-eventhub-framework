@@ -55,7 +55,7 @@ PLAYWRIGHTEVENTHUBASSIGNMENT/
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/PlaywrightEventHubAssignment.git
+git clone https://github.com/sagarroy2709/playwright-eventhub-framework.git
 cd PlaywrightEventHubAssignment
 
 # Install dependencies
