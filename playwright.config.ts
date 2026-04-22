@@ -16,7 +16,9 @@ export default defineConfig({
   testDir: './tests',
   // /* Run tests in files in parallel */
   // fullyParallel: true,
-  reporter: 'html',
+  reporter: [
+    ['html', { open: 'never' }]
+  ],
   workers: 1,
   timeout: 30*1000,
   expect: {
