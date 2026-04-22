@@ -1,5 +1,5 @@
 import { test as credentialsTest } from './credentials.fixture';
-import { BrowserContext, Page } from "@playwright/test";
+import { expect, BrowserContext, Page } from "@playwright/test";
 import { LoginPage } from "../pages/LoginPage.po";
 import { ENV } from '../config/env.config';
 
@@ -34,7 +34,7 @@ export const test = credentialsTest.extend<AuthFixture, AuthWorkerFixture>({
     },
 
 });
-
+export { expect };
 
 // import { test as base, expect, BrowserContext, Page } from "@playwright/test";
 // import { ENV } from '../config/env.config'
