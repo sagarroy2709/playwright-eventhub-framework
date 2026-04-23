@@ -31,7 +31,7 @@ export const test = credentialsTest.extend<AuthFixture, AuthWorkerFixture>({
         const page = await userOneContext.newPage();
         
         // 🚨 The core issue
-        // After login, your context is authenticated, but your new page is blank
+        // After login, context is authenticated, but new page is blank
         // 🔑 Authentication happens at context level
         // 🔑 Navigation happens at page level
         // ✔ Login → stored in context
